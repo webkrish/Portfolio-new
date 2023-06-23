@@ -277,6 +277,7 @@
   top: 140px;
   padding: 30px;
   box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+  overflow-x: hidden;
 }
 .about .about-text h1 {
   font-size: 3rem;
@@ -563,6 +564,7 @@
   max-width: 1200px;
   width: 620px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .contact h1 {
   font-size: 3rem;
@@ -588,7 +590,7 @@
   padding: 5px 10px;
   font-size: 1rem;
   color: #fff;
-  background: #d2d2d2;
+  background: #c1f0ff;
   border-radius: 8px;
   margin: 5px 0;
   border: none;
@@ -605,7 +607,7 @@
   padding: 5px 10px;
   font-size: 1rem;
   color: #fff;
-  background: #d2d2d2;
+  background: #c1f0ff;
   border-radius: 8px;
   margin: 5px 0;
   resize: none;
@@ -856,6 +858,10 @@ footer .text i:hover {
   }
   .contact {
     top: 210px;
+    width: 85%;
+  }
+  .contact form .input-box input {
+    width: 100%;
   }
   footer {
     top: 210px;
@@ -863,6 +869,44 @@ footer .text i:hover {
   footer .text {
     margin: 0 auto;
     flex-direction: column-reverse;
+  }
+  .wrapper header .banner {
+    padding: 80px 0;
+  }
+  .three-section .card svg {
+    width: 35%;
+    height: 20%;
+  }
+  .about .about-image .first {
+    width: 100%;
+  }
+  .about .about-text {
+    top: 170px;
+  }
+  .about .about-text h1 {
+    font-size: 2.5rem;
+  }
+  .technologies .one .card {
+    width: 85%;
+  }
+  .services .three-card .card {
+    width: 95%;
+  }
+  .services .three-card .card h4 {
+    padding: 15px 0;
+  }
+  .services .three-card .card p {
+    padding: 15px 10px;
+  }
+  .portfolio .work-section {
+    flex-direction: column;
+  }
+  .portfolio .work-section .card {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .portfolio .work-section .card:hover ~ .card {
+    left: 0;
   }
 }
 @media screen and (max-width: 380px) {
@@ -878,6 +922,7 @@ footer .text i:hover {
   }
   .about .about-text {
     top: 170px;
+    padding: 10px;
   }
   .about .about-text h1 {
     font-size: 2.5rem;

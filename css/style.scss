@@ -290,7 +290,6 @@ $second-color: #4043bc;
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
-
     .about-image {
         width: 50%;
         position: relative;
@@ -336,6 +335,7 @@ $second-color: #4043bc;
         top: 140px;
         padding: 30px;
         box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+        overflow-x: hidden;
 
         h1 {
             font-size: 3rem;
@@ -670,7 +670,7 @@ $second-color: #4043bc;
     max-width: 1200px;
     width: 620px;
     margin: 0 auto;
-
+    overflow: hidden;
     h1 {
         font-size: 3rem;
         font-weight: 400;
@@ -697,7 +697,7 @@ $second-color: #4043bc;
                 padding: 5px 10px;
                 font-size: 1rem;
                 color: #fff;
-                background: #d2d2d2;
+                background: #c1f0ff;
                 border-radius: 8px;
                 margin: 5px 0;
                 border: none;
@@ -714,7 +714,7 @@ $second-color: #4043bc;
             padding: 5px 10px;
             font-size: 1rem;
             color: #fff;
-            background: #d2d2d2;
+            background: #c1f0ff;
             border-radius: 8px;
             margin: 5px 0;
             resize: none;
@@ -1039,6 +1039,14 @@ footer {
 
     .contact {
         top: 210px;
+        width: 85%;
+        form{
+            .input-box{
+                input{
+                    width: 100%;
+                }
+            }
+        }
     }
 
     footer {
@@ -1049,9 +1057,6 @@ footer {
             flex-direction: column-reverse;
         }
     }
-}
-
-@media screen and (max-width:380px) {
     .wrapper {
         header {
             .banner {
@@ -1082,6 +1087,82 @@ footer {
             h1 {
                 font-size: 2.5rem;
             }
+        }
+    }
+
+    .technologies {
+        .one {
+            .card {
+                width: 85%;
+            }
+        }
+    }
+
+    .services {
+        .three-card {
+            .card {
+                width: 95%;
+
+                h4 {
+                    padding: 15px 0;
+                }
+
+                p {
+                    padding: 15px 10px;
+                }
+            }
+        }
+    }
+
+    .portfolio {
+        .work-section {
+            flex-direction: column;
+
+            .card {
+                width: 80%;
+                margin: 5px auto;
+
+                &:hover~.card {
+                    left: 0;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:380px) {
+    .wrapper {
+        header {
+            .banner {
+                padding: 80px 0;
+            }
+        }
+    }
+
+    .three-section {
+        .card {
+            svg {
+                width: 35%;
+                height: 20%;
+            }
+        }
+    }
+
+    .about {
+        .about-image {
+            .first {
+                width: 100%;
+            }
+        }
+
+        .about-text {
+            top: 170px;
+            padding: 10px;
+            h1 {
+                font-size: 2.5rem;
+            }
+            
         }
     }
 
