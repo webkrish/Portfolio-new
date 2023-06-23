@@ -1,9 +1,9 @@
 
 
-$("button").click(function () {
+$(".toggle").click(function () {
   $(".fa-times").toggle();
   $(".fa-bars").toggle();
-  $("ul").animate({
+  $(".nav-t").animate({
     height: "toggle"
   });
 });
