@@ -49,6 +49,7 @@
   color: #4043bc;
   transition: all 0.3s;
   position: relative;
+  margin: 0 15px;
 }
 .wrapper nav ul li a:hover {
   color: #ff5c97;
@@ -798,6 +799,9 @@ footer .text i:hover {
   .services .three-card .card {
     width: 48%;
     margin: 5px;
+  }
+  .technologies .one .card {
+    padding: 15px 0;
   }
   .portfolio .work-section {
     width: 100%;

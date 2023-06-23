@@ -58,7 +58,7 @@ $second-color: #4043bc;
                     color: $second-color;
                     transition: all .3s;
                     position: relative;
-
+                    margin: 0 15px;
                     &:hover {
                         color: $main-color;
                         text-shadow: -1px 1px 9px rgba(255, 92, 151, 0.82);
@@ -952,7 +952,13 @@ footer {
             }
         }
     }
-
+    .technologies{
+        .one{
+            .card{
+                padding: 15px 0;
+            }
+        }
+    }
     .portfolio {
         .work-section {
             width: 100%;
