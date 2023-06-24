@@ -123,6 +123,9 @@
   padding: 10px 0;
   width: 90%;
 }
+.wrapper header .banner .banner-text .social {
+  margin-left: 5px;
+}
 .wrapper header .banner .banner-text .social a {
   color: #fff;
   width: 40px;
@@ -153,8 +156,11 @@
   border-radius: 27px;
   overflow: hidden;
   z-index: 1;
-  margin: 10px 5px;
+  margin: 10px;
   box-shadow: 0px 0px 10px rgb(64, 67, 188);
+}
+.wrapper header .banner .banner-text .btn a {
+  color: #fff;
 }
 .wrapper header .banner .banner-text .btn:hover {
   box-shadow: 0px 0px 10px rgb(255, 92, 151);
@@ -307,6 +313,9 @@
   z-index: 1;
   margin: 10px 5px;
   box-shadow: 0px 0px 10px rgb(64, 67, 188);
+}
+.about .about-text .btn a {
+  color: #fff;
 }
 .about .about-text .btn:hover {
   box-shadow: 0px 0px 10px rgb(255, 92, 151);
