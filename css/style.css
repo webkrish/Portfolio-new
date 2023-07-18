@@ -8,6 +8,11 @@
   scroll-behavior: smooth;
 }
 
+.scrolled {
+  box-shadow: -1px -5px 20px 0px rgba(104, 103, 106, 0.7098039216);
+  transition: all 0.3s ease-in-out;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100vh;
@@ -15,7 +20,7 @@
   background-position: center;
   background-size: cover;
 }
-.wrapper nav {
+.wrapper #nav {
   padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
@@ -27,23 +32,23 @@
   top: 0;
   right: 0;
 }
-.wrapper nav .logo {
+.wrapper #nav .logo {
   width: 30%;
 }
-.wrapper nav .logo h4 {
+.wrapper #nav .logo h4 {
   color: #4043bc;
   font-size: 1.5rem;
 }
-.wrapper nav .logo h4 span {
+.wrapper #nav .logo h4 span {
   color: #ff5c97;
 }
-.wrapper nav ul {
+.wrapper #nav ul {
   width: 32%;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
-.wrapper nav ul li a {
+.wrapper #nav ul li a {
   font-size: 1rem;
   font-weight: 700;
   color: #4043bc;
@@ -51,12 +56,12 @@
   position: relative;
   margin: 0 15px;
 }
-.wrapper nav ul li a:hover {
+.wrapper #nav ul li a:hover {
   color: #ff5c97;
   text-shadow: -1px 1px 9px rgba(255, 92, 151, 0.82);
   transition: all 0.3s;
 }
-.wrapper nav ul li a::before {
+.wrapper #nav ul li a::before {
   content: "";
   position: absolute;
   background-color: #ff5c97;
@@ -65,7 +70,7 @@
   height: 2px;
   transition: all 0.3s cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
-.wrapper nav ul li a::after {
+.wrapper #nav ul li a::after {
   content: "";
   position: absolute;
   background-color: #ff5c97;
@@ -74,13 +79,13 @@
   height: 2px;
   transition: all 0.3s cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
-.wrapper nav ul li a:hover:after {
+.wrapper #nav ul li a:hover:after {
   width: 100%;
 }
-.wrapper nav ul li a:hover:before {
+.wrapper #nav ul li a:hover:before {
   width: 100%;
 }
-.wrapper nav button {
+.wrapper #nav button {
   display: none;
 }
 .wrapper header {

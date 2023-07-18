@@ -12,7 +12,10 @@ $second-color: #4043bc;
     font-family: 'jost', sans-serif;
     scroll-behavior: smooth;
 }
-
+.scrolled{
+    box-shadow: -1px -5px 20px 0px #68676ab5;
+    transition: all .3s ease-in-out;
+}
 .wrapper {
     width: 100%;
     min-height: 100vh;
@@ -20,7 +23,7 @@ $second-color: #4043bc;
     background-position: center;
     background-size: cover;
 
-    nav {
+    #nav{
         padding: 20px 0;
         display: flex;
         justify-content: space-evenly;
@@ -31,7 +34,7 @@ $second-color: #4043bc;
         align-items: center;
         top: 0;
         right: 0;
-
+        
         .logo {
             width: 30%;
 
@@ -102,6 +105,7 @@ $second-color: #4043bc;
         button {
             display: none
         }
+        
     }
 
     header {
