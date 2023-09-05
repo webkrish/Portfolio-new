@@ -15,6 +15,7 @@ $second-color: #4043bc;
 .scrolled{
     box-shadow: -1px -5px 20px 0px #68676ab5;
     transition: all .3s ease-in-out;
+    background-color: #fff;
 }
 .wrapper {
     width: 100%;
@@ -29,7 +30,6 @@ $second-color: #4043bc;
         justify-content: space-evenly;
         z-index: 2;
         width: 100%;
-        background-color: #fff;
         position: fixed;
         align-items: center;
         top: 0;
