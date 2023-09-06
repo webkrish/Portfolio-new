@@ -358,16 +358,17 @@
 .technologies .one {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
 }
 .technologies .one .card {
-  width: 33%;
+  width: 30%;
   height: 240px;
   border: 2px solid #ff5c97;
   border-radius: 5px;
-  margin: 20px 15px;
+  margin: 20px 5px;
   padding: 15px;
 }
 .technologies .one .card img {
